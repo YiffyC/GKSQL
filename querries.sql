@@ -48,7 +48,8 @@ SELECT MLE, CODPRO
 FROM AFFECT
 WHERE MLE BETWEEN 501 AND 1000 
 AND ( CODPRO = 17 OR CODPRO = 22 OR CODPRO = 120)
-AND DATFIN IS NULL --Si la date de fin est null, le projet n'est pas fini
+AND DATFIN IS NULL
+--Si la date de fin est null, le projet n'est pas fini
 LIMIT 0 , 30;
 
 
@@ -80,7 +81,8 @@ FROM DEPT;
 SELECT MLE 
 FROM EMPLOI
 WHERE CODEPT = 7
-AND DATSOR IS NULL --Actuellement dans le dpt = pas de date de sortie
+AND DATSOR IS NULL
+--Actuellement dans le dpt = pas de date de sortie
 ORDER BY MLE;
 
 --2.2.4
