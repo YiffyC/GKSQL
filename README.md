@@ -3,6 +3,7 @@ Module de SQL
 
 - querries.sql --> requêtes de base
 - jointures.sql --> jointures (no shit Sherlock)
+- sous_requetes --> exos sous requetes (no shit Sherlock)
 - Autres exemples (♥LEFT OUTER JOIN♥)
 
 
